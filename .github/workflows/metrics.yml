@@ -1,10 +1,7 @@
 name: Metrics
 on:
-  # Atualiza automaticamente a cada 12 horas
   schedule: [{cron: "0 */12 * * *"}]
-  # Permite atualizar manualmente na aba Actions se quiser
   workflow_dispatch:
-  # Atualiza sempre que você fizer um push na branch principal
   push: {branches: ["master", "main"]}
 jobs:
   github-metrics:
@@ -16,21 +13,23 @@ jobs:
         with:
           token: ${{ secrets.METRICS_TOKEN }}
 
-          # Configurações básicas de perfil
           user: YOUTBMAT
           template: classic
           base: header, activity, community, repositories, metadata
           config_timezone: America/Sao_Paulo
           
-          # 📊 Configuração Avançada de Linguagens (Para puxar Python/Processing)
+          # 📊 Configuração Avançada de Linguagens
           plugin_languages: yes
           plugin_languages_analysis_timeout: 15
-          plugin_languages_categories: markup, programming
+          plugin_languages_categories: programming              # Foca apenas em linguagens de programação reais
           plugin_languages_colors: github
           plugin_languages_limit: 8
           plugin_languages_threshold: 0%
-          plugin_languages_indepth: yes          # Força a análise detalhada de commits antigos
+          plugin_languages_indepth: yes                         # Varre commits antigos linha por linha
           plugin_languages_details: bytes, percentage
+          
+          # 🛑 LINHA MÁGICA: Ignora códigos prontos, bibliotecas pesadas e frameworks
+          plugin_languages_ignored: html, css, javascript, node_modules, package-lock.json, venv
           
           # 🔀 Status de Pull Requests e Issues
           plugin_followup: yes
