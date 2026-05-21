@@ -1,7 +1,10 @@
 name: Metrics
 on:
-  schedule: [{cron: "0 */12 * * "}]
+  # Atualiza automaticamente a cada 12 horas (Corrigido!)
+  schedule: [{cron: "0 */12 * * *"}]
+  # Permite atualizar manualmente na aba Actions
   workflow_dispatch:
+  # Atualiza sempre que você fizer um push na branch principal
   push: {branches: ["master", "main"]}
 jobs:
   github-metrics:
@@ -18,7 +21,7 @@ jobs:
           base: header, activity, community, repositories, metadata
           config_timezone: America/Sao_Paulo
           
-          # 📊 Linguagens mais usadas (Igual ao do eljobe)
+          # 📊 Linguagens mais usadas
           plugin_languages: yes
           plugin_languages_analysis_timeout: 15
           plugin_languages_categories: markup, programming
@@ -34,15 +37,15 @@ jobs:
           plugin_followup: yes
           plugin_followup_sections: user
 
-          # 🏅 NOVO: Bloco de Conquistas estilo RPG
+          # 🏅 Bloco de Conquistas estilo RPG
           plugin_achievements: yes
-          plugin_achievements_threshold: C     # Exibe medalhas desde o nível básico
-          plugin_achievements_secrets: yes     # Inclui medalhas escondidas do GitHub
-          plugin_achievements_limit: 5          # Mostra até 5 medalhas em destaque
+          plugin_achievements_threshold: C
+          plugin_achievements_secrets: yes
+          plugin_achievements_limit: 5
 
-          # 📅 NOVO: Gráfico de hábitos e horários de commits
+          # 📅 Gráfico de hábitos e horários de commits
           plugin_habits: yes
-          plugin_habits_from: 200               # Analisa os últimos 200 commits
-          plugin_habits_days: 14                # Foco nos últimos 14 dias
-          plugin_habits_facts: yes              # Exibe fatos rápidos sobre sua rotina
-          plugin_habits_charts: yes             # Gera o gráfico visual de linhas/barras
+          plugin_habits_from: 200
+          plugin_habits_days: 14
+          plugin_habits_facts: yes
+          plugin_habits_charts: yes
