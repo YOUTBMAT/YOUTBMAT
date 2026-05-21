@@ -1,10 +1,7 @@
 name: Metrics
 on:
-  # Atualiza automaticamente a cada 12 horas
-  schedule: [{cron: "0 */12 * * *"}]
-  # Permite atualizar manualmente na aba Actions se quiser
+  schedule: [{cron: "0 */12 * * "}]
   workflow_dispatch:
-  # Atualiza sempre que você mexer no repositório
   push: {branches: ["master", "main"]}
 jobs:
   github-metrics:
@@ -16,13 +13,12 @@ jobs:
         with:
           token: ${{ secrets.METRICS_TOKEN }}
 
-          # Configurações iguais às do eljobe
           user: YOUTBMAT
           template: classic
           base: header, activity, community, repositories, metadata
           config_timezone: America/Sao_Paulo
           
-          # Plugins de detalhes que aparecem na imagem dele
+          # 📊 Linguagens mais usadas (Igual ao do eljobe)
           plugin_languages: yes
           plugin_languages_analysis_timeout: 15
           plugin_languages_categories: markup, programming
@@ -34,6 +30,19 @@ jobs:
           plugin_languages_sections: most-used
           plugin_languages_threshold: 0%
           
-          # Status de Pull Requests e Issues
+          # 🔀 Status de Pull Requests e Issues
           plugin_followup: yes
           plugin_followup_sections: user
+
+          # 🏅 NOVO: Bloco de Conquistas estilo RPG
+          plugin_achievements: yes
+          plugin_achievements_threshold: C     # Exibe medalhas desde o nível básico
+          plugin_achievements_secrets: yes     # Inclui medalhas escondidas do GitHub
+          plugin_achievements_limit: 5          # Mostra até 5 medalhas em destaque
+
+          # 📅 NOVO: Gráfico de hábitos e horários de commits
+          plugin_habits: yes
+          plugin_habits_from: 200               # Analisa os últimos 200 commits
+          plugin_habits_days: 14                # Foco nos últimos 14 dias
+          plugin_habits_facts: yes              # Exibe fatos rápidos sobre sua rotina
+          plugin_habits_charts: yes             # Gera o gráfico visual de linhas/barras
