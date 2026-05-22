@@ -5,7 +5,7 @@
 
 <p align="center">
   <a href="https://hitscounter.dev">
-    <img src="https://hitscounter.dev/api/hit?url=https%3A%2F%2Fgithub.com%2FYOUTBMAT&label=Visitas&icon=github&color=%2310b981&style=for-the-badge&tz=America/Sao_Paulo"/>
+    <img src="https://hitscounter.dev/api/hit?url=https%3A%2F%2Fgithub.com%2FYOUTBMAT&label=Visitas&icon=github&color=%2310b981&message=&style=for-the-badge&tz=America/Sao_Paulo"/>
   </a>
 </p>
 
@@ -57,8 +57,8 @@
 ### 📌 Projetos em destaque
 
 <div align="center">
-  <a href="https://github.com/YOUTBMAT/Jokenpo">
-    <img src="https://github-readme-stats-fawn-phi-51.vercel.app/api/pin/?username=YOUTBMAT&repo=Jokenpo&theme=tokyonight&hide_border=true"/>
+  <a href="https://github.com/Gustavoluc11/Pedra-Papel-Tesoura">
+    <img src="https://github-readme-stats-fawn-phi-51.vercel.app/api/pin/?username=Gustavoluc11&repo=Pedra-Papel-Tesoura&theme=tokyonight&hide_border=true"/>
   </a>
   <a href="https://github.com/YOUTBMAT/Calculadora-de-tabela-verdade">
     <img src="https://github-readme-stats-fawn-phi-51.vercel.app/api/pin/?username=YOUTBMAT&repo=Calculadora-de-tabela-verdade&theme=tokyonight&hide_border=true"/>
