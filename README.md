@@ -45,8 +45,9 @@
 <h3 align="left">🔥 Estatísticas</h3>
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=YOUTBMAT&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="150" alt="stats graph" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=YOUTBMAT&theme=tokyonight" height="150" alt="languages graph" />
+  <img src="https://github-readme-stats.vercel.app/api?username=YOUTBMAT&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&v=2" height="150" alt="stats graph" />
+  
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUTBMAT&layout=compact&theme=tokyonight&hide_border=true&v=2" height="150" alt="languages graph" />
 </div>
 
 ###
@@ -60,14 +61,6 @@
   <a href="https://www.linkedin.com/in/mateus-medeiros-9660563b5/">
     <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="linkedin logo" />
   </a>
-</div>
-
-###
-
-<br clear="both">
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/YOUTBMAT/YOUTBMAT/snake-output/snake.svg" alt="Snake animation" />
 </div>
 
 <br>
