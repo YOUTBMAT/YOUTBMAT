@@ -59,8 +59,8 @@
 ### 📌 Projetos em destaque
 
 <div align="center">
-  <a href="https://github.com/YOUTBMAT/bot-yt-shorts">
-    <img src="https://github-readme-stats-fawn-phi-51.vercel.app/api/pin/?username=YOUTBMAT&repo=bot-yt-shorts&theme=tokyonight&hide_border=true"/>
+  <a href="https://github.com/YOUTBMAT/bot-shorts-yt">
+    <img src="https://github-readme-stats-fawn-phi-51.vercel.app/api/pin/?username=YOUTBMAT&repo=bot-shorts-yt&theme=tokyonight&hide_border=true"/>
   </a>
   <a href="https://github.com/YOUTBMAT/Calculadora-de-tabela-verdade">
     <img src="https://github-readme-stats-fawn-phi-51.vercel.app/api/pin/?username=YOUTBMAT&repo=Calculadora-de-tabela-verdade&theme=tokyonight&hide_border=true"/>
