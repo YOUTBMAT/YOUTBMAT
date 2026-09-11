@@ -59,8 +59,8 @@
 ### 📌 Projetos em destaque
 
 <div align="center">
-  <a href="https://github.com/Gustavoluc11/Pedra-Papel-Tesoura">
-    <img src="https://github-readme-stats-fawn-phi-51.vercel.app/api/pin/?username=Gustavoluc11&repo=Pedra-Papel-Tesoura&theme=tokyonight&hide_border=true"/>
+  <a href="https://github.com/YOUTBMAT/bot-yt-shorts">
+    <img src="https://github-readme-stats-fawn-phi-51.vercel.app/api/pin/?username=YOUTBMAT&repo=bot-yt-shorts&theme=tokyonight&hide_border=true"/>
   </a>
   <a href="https://github.com/YOUTBMAT/Calculadora-de-tabela-verdade">
     <img src="https://github-readme-stats-fawn-phi-51.vercel.app/api/pin/?username=YOUTBMAT&repo=Calculadora-de-tabela-verdade&theme=tokyonight&hide_border=true"/>
@@ -68,17 +68,11 @@
 </div>
 
 <div align="center">
-  <a href="https://github.com/YOUTBMAT/Exercicios-08-Matrizes">
-    <img src="https://github-readme-stats-fawn-phi-51.vercel.app/api/pin/?username=YOUTBMAT&repo=Exercicios-08-Matrizes&theme=tokyonight&hide_border=true"/>
-  </a>
-  <a href="https://github.com/YOUTBMAT/Exercicios-09-Funcoes">
-    <img src="https://github-readme-stats-fawn-phi-51.vercel.app/api/pin/?username=YOUTBMAT&repo=Exercicios-09-Funcoes&theme=tokyonight&hide_border=true"/>
-  </a>
-</div>
-
-<div align="center">
   <a href="https://github.com/YOUTBMAT/Bloco-de-cores">
     <img src="https://github-readme-stats-fawn-phi-51.vercel.app/api/pin/?username=YOUTBMAT&repo=Bloco-de-cores&theme=tokyonight&hide_border=true"/>
+  </a>
+  <a href="https://github.com/Gustavoluc11/Pedra-Papel-Tesoura">
+    <img src="https://github-readme-stats-fawn-phi-51.vercel.app/api/pin/?username=Gustavoluc11&repo=Pedra-Papel-Tesoura&theme=tokyonight&hide_border=true"/>
   </a>
 </div>
 
